@@ -1,0 +1,14 @@
+class positive_negative{
+  public static void main(String[] args){
+     int n=0;
+     if(n==0){
+         System.out.println("The number is zero");
+     }
+     else if(n<0){
+         System.out.println("Negativve number");
+     }
+     else{
+         System.out.println("Positive number");
+     }
+  }
+}
