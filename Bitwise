@@ -1,0 +1,18 @@
+class Bitwise{
+    public static void main(String[] args) {
+        int a=2;
+        int b=6;
+        int and=a&b;
+        System.out.println(and);
+        int or=a|b;
+        System.out.println(or);
+        int xor=a^b;
+        System.out.println(xor);
+        int shiftleft=a<<b;
+        System.out.println(shiftleft);
+        int shiftright=a>>b;
+        System.out.println(shiftright);
+        int shiftRightZeroFill=a>>>b;
+        System.out.println(shiftRightZeroFill);
+    }
+}
