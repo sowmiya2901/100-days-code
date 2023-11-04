@@ -1,0 +1,14 @@
+
+ 
+
+class Sum_positive_elements{
+    public static void main(String[] args) {
+       int[] arr={10, 11,2,-1};
+       int sum=0;
+       for(int I=0;I<arr.length;I++){
+           if(arr[I]>0)
+             sum =sum+arr[I];
+       }
+       System. out. println(sum);
+    }
+}
